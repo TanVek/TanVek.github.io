@@ -1,0 +1,160 @@
+#background
+{
+  background-image:url("../images/kiminowa.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+/*Set list margins*/
+ul{
+  margin-left: 23%;
+}
+/*Top of the website*/
+#topCard {
+    width: 75%;
+    text-align: center;
+    color: white;
+    justify-self: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: black solid 0.3em;
+    padding: 1rem;
+    background-color: rgba(1, 38, 90, 0.5);
+    
+}
+#textCard {
+    background-color: rgba(1, 38, 90, 0.5);
+    color: white;
+    justify-self: center;
+    width: 75%;
+    border: black solid 0.3em;
+    padding: 1rem;
+
+}
+#textCard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+/*Navigation Portion at the Bottom*/
+#navigation 
+{
+  text-align: center;
+   background-color: rgb(1, 38, 90);
+    color: white;
+    justify-self: center;
+    width: 75%;
+    border: black solid 0.3em;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+}
+/*Imported button*/
+.button {
+  display: inline-flex;
+}
+
+/*Home Page button*/
+.homeBox {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  transition: all .8s;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(1, 38, 90);
+  overflow: hidden;
+}
+.homeBox:before {
+  content: "Home Page";
+  position: absolute;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: transform .4s;
+}
+.button:hover .homeBox:before {
+  transform: translateY(0);
+}
+
+/*Secret Page button*/
+.secretBox {
+  width: 110px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  transition: all .8s;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(1, 38, 90);
+  overflow: hidden;
+}
+.secretBox:before {
+  content: "Secret Page";
+  position: absolute;
+  top: 100;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: transform .4s;
+}
+.button:hover .secretBox:before {
+  transform: translateY(0);
+}
+/*Wildcard Page button*/
+.wildBox {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  transition: all .8s;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(1, 38, 90);
+  overflow: hidden;
+}
+.wildBox::before {
+  content: "Wild Card Page";
+  position: absolute;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: transform .4s;
+}
+.button:hover .wildBox:before {
+  transform: translateY(0);
+}
