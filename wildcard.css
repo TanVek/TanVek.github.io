@@ -1,6 +1,6 @@
 #background
 {
-  background-image:url("./t1.webp");
+  background-image:url("../images/t1.webp");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -27,16 +27,18 @@
     width: 75%;
     border: black solid 0.3em;
     padding: 1rem;
+    
 
 }
 #navlink
 {
     text-decoration: none;
 }
+/*Formatting for the image text card*/
 #textCard img {
-    margin-left: auto;
-    margin-right: auto;
-    width: 20;
+    margin-left:25%;
+    margin-right:25%;
+    width:50%;
 }
 /*Navigation Portion at the Bottom*/
 #navigation 
